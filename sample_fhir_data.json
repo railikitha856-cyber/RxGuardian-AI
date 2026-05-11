@@ -1,0 +1,15 @@
+{
+  "patient": {
+    "name": "John Doe",
+    "age": 52,
+    "conditions": [
+      "Hypertension"
+    ],
+    "allergies": [
+      "Penicillin"
+    ],
+    "current_medications": [
+      "Aspirin"
+    ]
+  }
+}

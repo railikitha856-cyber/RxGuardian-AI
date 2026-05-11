@@ -1,0 +1,30 @@
+{
+  "agent_name": "RxGuardian AI",
+  "description": "Multi-agent healthcare medication safety copilot",
+  "version": "1.0",
+  "agents": [
+    {
+      "name": "Safety Agent",
+      "role": "Detects medication risks and severity"
+    },
+    {
+      "name": "Explanation Agent",
+      "role": "Generates patient-friendly medication explanations"
+    },
+    {
+      "name": "Recommendation Agent",
+      "role": "Provides adherence and safety guidance"
+    }
+  ],
+  "input_format": {
+    "medicine": "string",
+    "mode": "patient | doctor",
+    "language": "string"
+  },
+  "output_format": {
+    "severity": "string",
+    "risk_score": "integer",
+    "warnings": "array",
+    "analysis": "string"
+  }
+}
